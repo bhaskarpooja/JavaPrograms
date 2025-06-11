@@ -10,7 +10,7 @@ class SelectionSort{
 					indx=j;
 				}
 			}
-	        int temp=a[i];
+	                int temp=a[i];
 			a[i]=a[indx];
 			a[indx]=temp;
 		}
